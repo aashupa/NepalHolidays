@@ -26,6 +26,7 @@
     margin: 0 15px;
     position: relative;
     margin-top: 30px;
+    cursor: pointer;
     /* background-color: #009688; */
 }
 
@@ -138,7 +139,7 @@
     margin-top: 35px;
 }
 
-.btn{
+.activity-btn{
 margin-top: 20px;
 margin-left: 190px;
 margin-bottom: 18px;
@@ -197,20 +198,20 @@ margin-bottom: 18px;
     margin-top: 16px;
     font-size: 25px;
     font-weight: bold;
-    margin-left: 40px;
+    margin-left: 80px;
     color: #5bc0de;
 }
 
 .description{
-    font-size: 17px;
-    margin-left: 40px;
+    font-size: 15px;
+    margin-left: 80px;
     display: flex;
     margin-bottom: 40px;
 }
 
 .contact{
     /* margin: 80px; */
-    margin-left: 40px;
+    margin-left: 80px;
     margin-top: 40px;
     padding-left: 40px;
     padding-right: 40px;
@@ -222,6 +223,12 @@ margin-bottom: 18px;
     padding-top: 15px;
     padding-bottom:  13px;
 
+}
+
+.when{
+    margin-top: -68px;
+    margin-left: 10px;
+    /* margin-bottom: 1px; */
 }
 
 
@@ -265,19 +272,26 @@ margin-bottom: 18px;
 }
 .icon{
     margin-left: 20px;
+    cursor: pointer;
     /* background-color: #256f4d; */
 }
 
 .search{
     margin-top: -100px;
-    margin-left: 120px;
+    margin-left: 170px;
     padding-top: 20px;
     padding-left: 20px;
     padding-right: -20px;
     padding-bottom: 20px;
-     background-color: #E9E9E9;
+    width: 900px;
+    border-radius: 15px;
+     background-color: white;
      z-index: 1; 
      position: relative;
+}
+
+.search-row{
+    margin-left: 22px;
 }
    
 
@@ -294,4 +308,55 @@ margin-bottom: 18px;
 .a{
     background-color: purple;
     width: 200px;
+}
+
+
+
+
+
+/* Activity Page */
+
+.head-image{
+    width: 500px;
+    /* height: 280px; */
+    /* height: 250px; */
+    margin-top: 20px;
+}
+
+.activity-title{
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 16px;
+  
+    /* margin-left: 20px; */
+    color:#5bc0de;
+    /* background-color: #009688; */
+}
+
+.horizontal-line{
+   
+        height:1px;
+        /* margin-left: 20px; */
+        /* margin: 6px 0px 6px 20px; */
+        width: 520px;
+        color:black;
+        background-color:black;
+}
+
+.title-price{
+    font-weight: bold;
+    /* margin: 0px 0px 0px 20px; */
+    color:rgb(236, 62, 62);
+}
+
+.activity-description{
+    
+    margin: 0px 20px 0px 0px;
+    text-align: justify;
+}
+
+
+.package-days{
+    color:#5bc0de;
+    margin-left: 5px;
 }
